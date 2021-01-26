@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon ./server.js",
     "dev": "env-cmd -f ./config/dev.env nodemon server.js",
-    "test": "env-cmd -f ./config/test.env jest"
+    "test": "env-cmd -f ./config/test.env jest --coverage"
   },
   "jest":{
     "testEnvironment" : "node"
